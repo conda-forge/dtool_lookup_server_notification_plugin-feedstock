@@ -1,5 +1,5 @@
 {% set name = "dtool_lookup_server_notification_plugin" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/dtool-lookup-server-notification-plugin/dtool-lookup-server-notification-plugin-{{ version }}.tar.gz
-  sha256: a081f704be652372e560cb5ca099ea8dc1c8c78ac144156b124d826be186e73d
+  sha256: c3da811c4daad8816cb4f474a0c19535d12b7d892a4314a9192c93bc00d2b7eb
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,6 +24,7 @@ requirements:
     - dtool_lookup_server >=0.17.2
     - dtoolcore >=3.17.0
     - python >=3.6
+    - markupsafe <=2.0.1
 
 test:
   imports:

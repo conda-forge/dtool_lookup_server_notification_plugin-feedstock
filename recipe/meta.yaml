@@ -24,6 +24,7 @@ requirements:
     - dtool_lookup_server >=0.17.2
     - dtoolcore >=3.17.0
     - python >=3.6
+    - markupsafe <=2.0.1
 
 test:
   imports:

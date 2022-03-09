@@ -1,5 +1,5 @@
 {% set name = "dtool_lookup_server_notification_plugin" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/dtool-lookup-server-notification-plugin/dtool-lookup-server-notification-plugin-{{ version }}.tar.gz
-  sha256: c3da811c4daad8816cb4f474a0c19535d12b7d892a4314a9192c93bc00d2b7eb
+  sha256: 1986ca2dbe09145f536088e9c80f6446eecd2010ece5153c46007177ea12a5c5
 
 build:
   number: 0

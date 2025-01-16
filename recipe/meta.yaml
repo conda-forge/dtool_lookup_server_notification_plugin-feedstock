@@ -22,7 +22,7 @@ requirements:
     - setuptools_scm
     - setuptools
   run:
-    - dtool_lookup_server >=0.17.2
+    - dtool_lookup_server >=0.17.2,<0.18
     - dtoolcore >=3.17.0
     - python >={{ python_min }}
     - markupsafe <=2.0.1

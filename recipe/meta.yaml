@@ -20,11 +20,13 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools_scm
+    - setuptools
   run:
     - dtool_lookup_server >=0.17.2
     - dtoolcore >=3.17.0
     - python >={{ python_min }}
     - markupsafe <=2.0.1
+    - sqlalchemy <2
 
 test:
   imports:
